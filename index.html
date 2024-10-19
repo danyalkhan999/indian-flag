@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .white{
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .green{
+            background-color: green;
+        }
+        .flag{
+            width: 350px;
+            height: 100px;
+        }
+        .ashok-chakra {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main >
+        <div class="container">
+            <div class="orange flag"></div>
+            <div class="white flag">
+                <svg class="ashok-chakra" viewBox="0 0 100 100">
+                    <!-- Outer Circle -->
+                    <circle cx="50" cy="50" r="45" stroke="#000080" stroke-width="2" fill="none" />
+            
+                    <!-- Spokes -->
+                    <!-- Loop to create 24 spokes -->
+                    <g stroke="#000080" stroke-width="1.5">
+                        <!-- This uses a rotate transformation to evenly distribute the spokes -->
+                        <!-- Creating 24 lines from center of the circle -->
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(0 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(15 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(30 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(45 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(60 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(75 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(90 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(105 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(120 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(135 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(150 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(165 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(180 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(195 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(210 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(225 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(240 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(255 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(270 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(285 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(300 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(315 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(330 50 50)" />
+                        <line x1="50" y1="50" x2="50" y2="5" transform="rotate(345 50 50)" />
+                    </g>
+            
+                    <!-- Inner Circle -->
+                    <circle cx="50" cy="50" r="2" fill="#000080" />
+            </div>
+            <div class="green flag"></div>
+        </div>
+    </main>
+</body>
+</html>
