@@ -4,7 +4,7 @@ This project is an attempt to create the Indian national flag using only HTML an
 
 ## Preview
 
-![Indian Flag Preview](https://drive.google.com/file/d/1g0ADueMOU0mzSnXdZ_Z-Lt8Ix57Y3PSH/view?usp=drive_link) *(Add a screenshot of your flag here)*
+![Indian Flag Preview]('https://drive.google.com/file/d/1g0ADueMOU0mzSnXdZ_Z-Lt8Ix57Y3PSH/view?usp=drive_link') *(Add a screenshot of your flag here)*
 
 ## Features
 
